@@ -1,0 +1,133 @@
+:root {
+  --primary-text-color: #757575;
+  --primary-accent-color: #2196f3;
+  --secondary-text-color: #212121;
+  --secondary-accent-color: #ffffff;
+  --bg-color: #f5f4fa;
+  --logo-black-color: #000000;
+}
+
+body {
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Логотип */
+.logo {
+  color: var(--primary-accent-color);
+}
+
+.logo span {
+  color: #000000;
+}
+
+/* Основне меню сайта */
+.active-nav {
+  color: var(--primary-accent-color);
+}
+.unactive-nav {
+  color: var(--secondary-text-color);
+}
+
+/* Контактне меню: */
+
+.contact-link {
+  color: var(--primary-text-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--primary-accent-color);
+}
+
+.nav a:hover,
+.nav a:focus {
+  color: var(--primary-accent-color);
+}
+
+/* Секція Герой*/
+
+.hero .title {
+  font-size: 44px;
+  color: var(--secondary-accent-color);
+}
+
+.servise-order.button {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+/* Переваги */
+
+.advantages h3 {
+  font-size: 14px;
+}
+
+.advantages p {
+  font-size: 14px;
+}
+
+.advantages .title {
+  color: var(--secondary-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.work h3 {
+  font-size: 14px;
+  color: var(--secondary-accent-color);
+}
+
+/* Наша команда */
+
+.team h3 {
+  font-size: 16px;
+}
+
+.team p {
+  font-size: 16px;
+}
+
+.title {
+  color: var(--secondary-text-color);
+}
+
+.button {
+  color: var(--secondary-accent-color);
+  background-color: var(--primary-accent-color);
+}
+/* Портфоліо */
+
+/* Кнопки навігації */
+.button-nav {
+  color: var(--secondary-text-color);
+  background-color: var(--bg-color);
+}
+
+.button-nav:hover,
+.button-nav:focus {
+  color: var(--secondary-accent-color);
+  background-color: var(--primary-accent-color);
+}
+
+.main-content h3 {
+  color: var(--secondary-text-color);
+  font-size: 18px;
+}
+
+.main-content p {
+  font-size: 16px;
+}
+
+/* Футер */
+.join,
+.subscribe {
+  color: var(--secondary-accent-color);
+  font-size: 14px;
+}
+
+.address {
+  color: var(--secondary-accent-color);
+}
+.contact-list a {
+  color: rgba(255, 255, 255, 0.6);
+}
